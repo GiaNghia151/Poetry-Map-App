@@ -7,7 +7,7 @@ In 2011 my grandpa published 51 of his best poems in a 500-run limited print. Fi
 - **Interactive Global Map**: Users can navigate a world map and interact with destination pins.
 - **Poem Submission**: Users can submit poems associated with specific locations on the map.
 - **User Authentication**: Secure sign-in and account management for users to save their favorite poems.
-- **Collections**: Users can view and manage their collections of saved poems.
+- **Collections**: Users can view and manage their collections of saved poems, or uncover a pre-saved collection of my grandpa's best poems.
 
 ## Technologies Used
 - **Frontend**: React, TypeScript
