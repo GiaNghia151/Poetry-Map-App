@@ -1,7 +1,7 @@
-# Poetry Map App
+# Poetry Visualized
 
 ## Overview
-The Poetry Map App is an interactive web application that allows users to explore a global map, add poems to specific destinations, and save their favorite poems in collections. This project combines the beauty of poetry with the exploration of geography, providing a unique platform for users to share and discover literary works.
+In 2011 my grandpa published 51 of his best poems in a 500-run limited print. Fifteen years on, much of his extensive collection risks collecting dust in a cabinet. To commemorate his work and to uncover a side of 80s, 90s, and early 2000s Vietnam never seen before by the public, PoetryVisualized seeks to blend Vietnam's landmarks with his poetry, exactly where he was inspired to write them.
 
 ## Features
 - **Interactive Global Map**: Users can navigate a world map and interact with destination pins.
@@ -14,46 +14,6 @@ The Poetry Map App is an interactive web application that allows users to explor
 - **Backend**: Node.js, Express, TypeScript
 - **Database**: MongoDB (or any preferred database)
 
-## Project Structure
-```
-poetry-map-app
-├── client
-│   ├── public
-│   │   └── index.html
-│   ├── src
-│   │   ├── components
-│   │   │   ├── Map.tsx
-│   │   │   ├── PoemForm.tsx
-│   │   │   ├── Auth.tsx
-│   │   │   └── Collection.tsx
-│   │   ├── pages
-│   │   │   ├── Home.tsx
-│   │   │   └── Dashboard.tsx
-│   │   ├── services
-│   │   │   └── api.ts
-│   │   ├── types
-│   │   │   └── index.ts
-│   │   ├── App.tsx
-│   │   └── index.tsx
-│   ├── package.json
-│   └── tsconfig.json
-├── server
-│   ├── src
-│   │   ├── config
-│   │   │   └── db.ts
-│   │   ├── controllers
-│   │   │   ├── auth.ts
-│   │   │   └── poems.ts
-│   │   ├── models
-│   │   │   ├── User.ts
-│   │   │   └── Poem.ts
-│   │   ├── routes
-│   │   │   └── index.ts
-│   │   └── server.ts
-│   ├── package.json
-│   └── tsconfig.json
-└── README.md
-```
 
 ## Getting Started
 
